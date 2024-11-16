@@ -6,7 +6,9 @@ let callback=(item)=>{
     if(item%2 === 0){
         return true;
     }
-    else return false;
+    else{
+        return false;
+    }
 }
 
 console.log(filter(items,callback));

@@ -1,10 +1,10 @@
 // import { items } from "./arrays.js";
 
 
-export function cb(Element,index){
-    console.log(Element,index);
-    // return Element,index;
-}
+// export function cb(Element,index){
+//     console.log(Element,index);
+//     // return Element,index;
+// }
 export function each(items, cb) {
     // Do NOT use forEach to com,plete this function.
     // Iterates over a list of elements, yielding each in turn to the `cb` function.
